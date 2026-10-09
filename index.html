@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nandhakishore O — Data Science Trainer and aspiring Data Scientist.">
+  <title>Nandhakishore O | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Nandhakishore home"><span>NK</span> Nandhakishore O</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#experience">Experience</a>
+      <a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-outline resume-link" href="#" id="resumeLink">Resume ↗</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Nandhakishore <span>O</span></h1>
+        <h2>Data Science Trainer <span>&amp;</span> Aspiring Data Scientist</h2>
+        <p class="intro">I enjoy working with data, building machine learning solutions, and helping learners understand technology through practical examples.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">Explore my work <span>→</span></a>
+          <a class="btn btn-outline" href="#contact">Contact me</a>
+        </div>
+        <div class="socials">
+          <a href="#" class="social-placeholder" data-placeholder="linkedin">LinkedIn</a>
+          <a href="#" class="social-placeholder" data-placeholder="github">GitHub</a>
+          <a href="#contact">Email</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Add your profile photo as assets/profile.jpg" onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='grid';">
+          <div id="photoFallback" class="photo-fallback"><span>NK</span><small>Add your photo</small></div>
+        </div>
+        <div class="floating-tag tag-one">Python · SQL</div>
+        <div class="floating-tag tag-two">Data → Insights</div>
+      </div>
+    </section>
+
+    <section class="section about-grid" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind. <span>Practical builder.</span></h2></div>
+      <div class="about-content">
+        <p>I am from Thanjavur, Tamil Nadu, and completed a B.E. in Computer Science and Engineering at Dhanalakshmi Srinivasan Engineering College, Perambalur (2021–2025), with a CGPA of 7.49.</p>
+        <p>I completed Data Science training at SLA Institute and currently work as a Data Science Trainer. My interests include data analysis, machine learning, and generative AI, along with creating clear, practical learning materials for students.</p>
+        <div class="stats">
+          <div><strong>7.49</strong><span>B.E. CGPA</span></div>
+          <div><strong>2021–25</strong><span>Engineering</span></div>
+          <div><strong>Data</strong><span>My focus</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><p class="eyebrow">WHAT I WORK WITH</p><h2>Skills &amp; tools</h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">Py</div><h3>Python &amp; libraries</h3><p>Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</p></article>
+        <article class="skill-card"><div class="skill-icon">SQL</div><h3>Data &amp; analytics</h3><p>SQL, Excel, data cleaning, exploratory data analysis, statistics</p></article>
+        <article class="skill-card"><div class="skill-icon">ML</div><h3>Machine learning</h3><p>Regression, model training, evaluation, feature preparation</p></article>
+        <article class="skill-card"><div class="skill-icon">AI</div><h3>AI &amp; development</h3><p>Deep Learning, Generative AI, C/C++, JavaScript basics</p></article>
+        <article class="skill-card"><div class="skill-icon">BI</div><h3>Tools &amp; teaching</h3><p>Power BI basics, Tally, preparing lessons, assignments, and tests</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects</h2></div>
+      <article class="project-card">
+        <div class="project-art">
+          <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="chart-label">ML / REGRESSION</div>
+        </div>
+        <div class="project-info">
+          <div class="project-topline"><span class="pill">Machine Learning</span><span class="project-number">PROJECT 01</span></div>
+          <h3>Car Price Prediction using Machine Learning</h3>
+          <p>Built a regression-based project to estimate car prices from vehicle features. The workflow includes preprocessing, handling missing values and outliers, exploratory data analysis, and model training.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Scikit-learn</span></div>
+          <p class="project-note">Add your GitHub repository or live demo link when available.</p>
+          <a href="#" class="text-link placeholder-link" data-placeholder="project">Add project link ↗</a>
+        </div>
+      </article>
+      <article class="project-card project-card-secondary">
+        <div class="project-art phone-art"><div class="phone-screen"><span>₹</span><b>Price Drop</b><small>Prediction app concept</small><div class="mini-line"></div></div></div>
+        <div class="project-info">
+          <div class="project-topline"><span class="pill">Streamlit · ML</span><span class="project-number">PROJECT 02</span></div>
+          <h3>Smartphone Price Drop Prediction</h3>
+          <p>A machine learning app concept to estimate a smartphone's price drop and expected price from product features. Built around data preparation, model comparison, and a Streamlit interface.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Streamlit</span></div>
+          <p class="project-note">Add your repository or deployed app URL when ready.</p>
+          <a href="#" class="text-link placeholder-link" data-placeholder="smartphone project">Add project link ↗</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading"><p class="eyebrow">MY JOURNEY</p><h2>Experience</h2></div>
+      <div class="timeline">
+        <div class="timeline-mark"></div>
+        <article class="timeline-card">
+          <div class="timeline-header"><div><h3>Data Science Trainer</h3><p class="muted">Jeyaram Education Trust · Guduvanchery</p></div><span class="date-pill">Sep 2026 – Present</span></div>
+          <ul><li>Conducting training sessions on Data Science concepts and Python.</li><li>Preparing study materials, assignments, and assessments.</li><li>Supporting learners with practical examples and programming exercises.</li><li>Teaching additional topics as assigned, including Tally, JavaScript, and C/C++.</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section two-column">
+      <div id="education">
+        <div class="section-heading"><p class="eyebrow">ACADEMIC BACKGROUND</p><h2>Education</h2></div>
+        <div class="info-card">
+          <span class="card-symbol">01</span><div><h3>B.E. Computer Science and Engineering</h3><p>Dhanalakshmi Srinivasan Engineering College, Perambalur</p><div class="info-meta"><span>2021–2025</span><span>CGPA 7.49</span></div></div>
+        </div>
+        <div class="info-card">
+          <span class="card-symbol">02</span><div><h3>Higher Secondary (12th)</h3><p>Score recorded: 507.64 / 600 — please verify before publishing.</p><div class="info-meta"><span>2021</span></div></div>
+        </div>
+        <div class="info-card">
+          <span class="card-symbol">03</span><div><h3>SSLC (10th)</h3><p>377 / 500</p><div class="info-meta"><span>2019</span></div></div>
+        </div>
+      </div>
+      <div id="certifications">
+        <div class="section-heading"><p class="eyebrow">LEARNING &amp; GROWTH</p><h2>Certifications</h2></div>
+        <div class="cert-card"><span>✦</span><div><h3>Data Science Training</h3><p>SLA Institute</p></div></div>
+        <div class="cert-card"><span>✦</span><div><h3>Additional certificates</h3><p>Add verified certificate names and links here.</p></div></div>
+        <div class="section-heading achievements-heading"><p class="eyebrow">PROGRESS</p><h2>Achievements</h2></div>
+        <div class="achievement-card"><span>↗</span><p>Built machine learning project work in car price prediction and smartphone price-drop prediction.</p></div>
+        <div class="achievement-card"><span>↗</span><p>Moved into a Data Science Trainer role and create learning materials for students.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy"><p class="eyebrow">LET'S CONNECT</p><h2>Have an opportunity<br>or idea? <span>Let's talk.</span></h2><p>I'm open to relevant opportunities and professional connections. Update the placeholders with your preferred contact details before publishing.</p>
+        <div class="contact-detail"><span>@</span><div><small>Email</small><a href="mailto:nandhakis27@gmail.com">nandhakis27@gmail.com</a></div></div>
+        <div class="contact-detail"><span>@</span><div><small>Phone</small><a href="phone:+918940775420">+918940775420</a></div></div>
+        <div class="contact-detail"><span>⌖</span><div><small>Location</small><p>Thanjavur, Tamil Nadu, India</p></div></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name">
+        <label for="email">Your email</label><input id="email" name="email" type="email" required placeholder="you@example.com">
+        <label for="message">Message</label><textarea id="message" name="message" rows="5" required placeholder="What would you like to discuss?"></textarea>
+        <button class="btn" type="submit">Prepare email <span>↗</span></button>
+        <p class="form-note">This form opens your email app; it does not store or send messages on a server.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span>NK</span> Nandhakishore O</a><p>Built with care · <span id="year"></span></p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
